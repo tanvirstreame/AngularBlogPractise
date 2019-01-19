@@ -1,8 +1,7 @@
 <p>
-  topic works get!
+  topic works get! 
 </p>
-<ui *ngfor="let eTopic of Topic">
-  <li>{{ eTopic.age }}</li>
-  <li>data</li>
-</ui>
+<ul *ngFor="let eTopic of Topic">
+  <li>{{ eTopic }}</li>
+</ul>
 <router-outlet></router-outlet>

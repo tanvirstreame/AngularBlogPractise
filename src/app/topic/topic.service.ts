@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
   providedIn: 'root'
 })
 export class TopicService {
-  private url:string='/assets/Data/data.json';
+  private url:string="http://localhost/api.php";
 
   constructor(private http:HttpClient) { }
   getTopic():Observable<ITopic[]>{
