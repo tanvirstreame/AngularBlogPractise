@@ -1,9 +1,22 @@
-
+<nav class="navbar navbar bg-info">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Tanvir Blog</a>
+    </div>
+    <ul class="nav navbar-nav pull-right">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a routerLink="/About">About</a></li>
+      <li><a routerLink="/Topic">Topic</a></li>
+      <li><a routerLink="/Contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 <div style="text-align:center">
   <h1>
     {{ title }}
   </h1>
   
+ 
 
 
 <router-outlet></router-outlet>
